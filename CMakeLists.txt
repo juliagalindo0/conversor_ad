@@ -35,7 +35,7 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(conversor_ad conversor_ad.c )
+add_executable(conversor_ad conversor_ad.c inc/ssd1306.c)
 
 pico_set_program_name(conversor_ad "conversor_ad")
 pico_set_program_version(conversor_ad "0.1")
@@ -55,6 +55,11 @@ target_include_directories(conversor_ad PRIVATE
 
 # Add any user requested libraries
 target_link_libraries(conversor_ad 
+        hardware_adc
+        hardware_i2c
+        pico_stdlib
+        hardware_pwm
+        hardware_gpio
         
         )
 

@@ -42,3 +42,5 @@ Atualização dos LEDs e do display
 
 Verificação dos botões e alternância de estados
 
+Link para o vídeo: [https://drive.google.com/file/d/1-SiIkxIAE9_UFgeLVAb2vxQRPVhKglLF/view?usp=sharing](https://drive.google.com/file/d/1-SiIkxIAE9_UFgeLVAb2vxQRPVhKglLF/view?usp=sharing)
+
